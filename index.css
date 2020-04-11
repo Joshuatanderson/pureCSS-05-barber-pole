@@ -68,13 +68,11 @@ body {
 	height: 90%;
 	width: 100%;
 	background-size: 100% 720px;
-	/* background-repeat: repeat-y; */
-	/* background-position: 0% 0%; */
 	background: repeating-linear-gradient(
 		-30deg,
 		#fff,
 		#fff 30px,
-		/* the first blue 20px is a starting place, not a width! */
+		/* the first blue 30px is a starting place, not a width! */
 			var(--stripe-blue) 30px,
 		var(--stripe-blue) 60px,
 		#fff 60px,
@@ -98,75 +96,3 @@ body {
 	margin-top: 450%;
 	z-index: 4;
 }
-
-/* @keyframes stripe-blue-up-0 {
-	from {
-		margin-top: 450%;
-	}
-	to {
-		margin-top: -50%;
-	}
-}
-
-@keyframes stripe-red-up-0 {
-	from {
-		margin-top: 450%;
-	}
-	to {
-		margin-top: -50%;
-	}
-}
-
-@keyframes stripe-blue-up-1 {
-	from {
-		margin-top: 450%;
-	}
-	to {
-		margin-top: -250%;
-	}
-}
-
-@keyframes stripe-red-up-1 {
-	from {
-		margin-top: 450%;
-	}
-	to {
-		margin-top: -350%;
-	}
-}
-
-/**********************
-	STRIPES
-************************/
-
-/* speed ===  100 per second */
-
-/* .stripe {
-	position: absolute;
-	clip-path: polygon(100% 0, 100% 30%, 0 100%, 0 70%);
-	height: 20%;
-	width: 100%;
-}
-
-.stripe-blue {
-	background-color: rgb(53, 53, 253);
-}
-
-.stripe-red {
-	background-color: rgb(184, 44, 19);
-}
-
-#blue-0 {
-	animation: 4s linear 0s infinite stripe-blue-up-0;
-}
-
-#red-0 {
-	animation: 5s linear 0s infinite stripe-red-up-0;
-}
-#blue-1 {
-	animation: 6s linear 0s infinite stripe-blue-up-1;
-}
-
-#red-1 {
-	animation: 7s linear 0s infinite stripe-red-up-1;
-} */
